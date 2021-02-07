@@ -1,9 +1,9 @@
 <?php
 
 $servername = 'localhost';
-$database = '';
-$username = '';
-$password = '';
+$database = 'epiz_27694097_live';
+$username = 'epiz_27694097';
+$password = 'c4nyN5xqg5q4';
 
 // Create connection
 
