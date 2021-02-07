@@ -1,6 +1,6 @@
 <?php
 
-$servername = 'sql106.byetcluster.com';
+$servername = 'sql106.epizy.com';
 $database = 'epiz_27694097_live';
 $username = 'epiz_27694097';
 $password = 'c4nyN5xqg5q4';
