@@ -1,0 +1,29 @@
+{
+    "name" : "Hasya Katta Live Screen Capturing",
+    "author": "Smit Shetye",
+    "version" : "1",
+    "manifest_version" : 2,
+    "minimum_chrome_version": "34",
+    "description" : "Hasya Katta live screen sharing for all.",
+    "homepage_url": "https://hasyakattalive.herokuapp.com",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "content_scripts": [ {
+       "js": [ "content.js" ],
+       "all_frames": true,
+       "run_at": "document_end",
+       "matches": ["https://*/*"]
+    }],
+    "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+    "permissions": [
+        "desktopCapture",
+        "activeTab"
+    ],
+    "web_accessible_resources": [
+        "icon16.png"
+    ]
+}
